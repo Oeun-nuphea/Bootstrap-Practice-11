@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice 11 | Design | Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand h1 mb-0" href="#">Brand</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Shop 1</a></li>
+                                <li><a class="dropdown-item" href="#">Shop 2</a></li>
+                                <li><a class="dropdown-item" href="#">Shop 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="ms-auto trolley">
+                    <a href="#" class="text-decoration-none rounded-2 px-3 py-2">
+                        <i class="fa-solid fa-cart-shopping text-black"></i>
+                        <span class="text-black">Card</span>
+                        <span class="px-2 py-1 bg-success rounded-3 text-white text-center" style="font-size: 12px;">0</span>
+                    </a>
+                </div>
+            </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero-banner text-center bg-dark">
+        <div>
+          <h1 class="fw-bold text-white">Shop in style</h1>
+          <p class="text-secondary">With this homepage template</p>
+        </div>
+      </section>
+
+      <section class="product-area">
+        <div class="container">
+          <div class="row g-2 g-md-3 g-xl-5">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center">
+                <img
+                  src="assets/image/card.png"
+                  class="card-img-top"
+                  alt="card"/>
+                <div class="card-body">
+                  <h5 class="card-title">Fancy Product</h5>
+                  <p class="card-text mb-5">$40.00 - $80.00</p>
+                  <a href="#" class="btn btn-outline-secondary">View options</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center">
+                <img
+                  src="assets/image/card.png"
+                  class="card-img-top"
+                  alt="card"/>
+                <div class="sale">Sale</div>
+                <div class="card-body">
+                  <h5 class="card-title">Special Item</h5>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <p class="card-text mb-4"><del>$20.00</del> $18.00</p>
+                  <a href="#" class="btn btn-outline-success">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center">
+                <img
+                  src="assets/image/card.png"
+                  class="card-img-top"
+                  alt="card"/>
+                <div class="sale">Sale</div>
+                <div class="card-body">
+                  <h5 class="card-title">Sale Item</h5>
+                  <p class="card-text mb-5"><del>$50.00</del> $25.00</p>
+                  <a href="#" class="btn btn-outline-success">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center">
+                <img
+                  src="assets/image/card.png"
+                  class="card-img-top"
+                  alt="card"/>
+                <div class="card-body">
+                  <h5 class="card-title">Popular Item</h5>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <p class="card-text mb-4">$40.00</p>
+                  <a href="#" class="btn btn-outline-success">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center">
+                <img
+                  src="assets/image/card.png"
+                  class="card-img-top"
+                  alt="card"/>
+                <div class="sale">Sale</div>
+                <div class="card-body">
+                  <h5 class="card-title">Sale Item</h5>
+                  <p class="card-text mb-5"><del>$50.00</del> $25.00</p>
+                  <a href="#" class="btn btn-outline-success">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center">
+                <img
+                  src="assets/image/card.png"
+                  class="card-img-top"
+                  alt="card"/>
+                <div class="card-body">
+                  <h5 class="card-title">Fancy Product</h5>
+                  <p class="card-text mb-5">$120.00 - $280.00</p>
+                  <a href="#" class="btn btn-outline-secondary">View options</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center">
+                <img
+                  src="assets/image/card.png"
+                  class="card-img-top"
+                  alt="card"/>
+                <div class="sale">Sale</div>
+                <div class="card-body">
+                  <h5 class="card-title">Special Item</h5>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <p class="card-text mb-4"><del>$20.00</del> $18.00</p>
+                  <a href="#" class="btn btn-outline-success">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center">
+                <img
+                  src="assets/image/card.png"
+                  class="card-img-top"
+                  alt="card"/>
+                <div class="card-body">
+                  <h5 class="card-title">Popular Item</h5>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <p class="card-text mb-4">$40.00</p>
+                  <a href="#" class="btn btn-outline-success">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark">
+      <div class="container">
+        <p class="m-0 text-white text-center">
+          Copyright &copy; Your Website 2025
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

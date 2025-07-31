@@ -1,0 +1,73 @@
+.navbar .navbar-nav .nav-item {
+  padding-inline: 12px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 6px 16px;
+  border-radius: 4px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  background-color: rgb(108, 117, 125);
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link {
+  background-color: rgb(108, 117, 125);
+}
+
+.navbar .navbar-nav .dropdown .dropdown-item:hover {
+  background-color: rgb(108, 117, 125);
+}
+
+.navbar .trolley a {
+  transition: 0.3s;
+  border: 1px solid #ddd;
+}
+
+.navbar .trolley a:hover {
+  background-color: rgb(108, 117, 125);
+}
+
+/* hero-banner */
+
+section {
+  padding-block: 70px;
+}
+
+/* product */
+
+.product-area .card .sale {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 5px;
+  padding: 2px 8px;
+  font-weight: 500;
+  background-color: #198754;
+  color: white;
+}
+
+.product-area .card .card-body i {
+  color: gold;
+  padding: 0;
+  margin: 0;
+}
+
+/* footer */
+footer {
+  padding-block: 30px;
+}
+
+@media (max-width: 992px) {
+  .navbar .navbar-nav {
+    margin-top: 10px;
+  }
+  .navbar .navbar-nav,
+  .navbar .navbar-nav .dropdown-menu {
+    width: 50% !important;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    margin-block: 2px;
+  }
+}
